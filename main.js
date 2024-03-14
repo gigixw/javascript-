@@ -33,7 +33,7 @@ for (let i = 0; i < contadores.length; i++) {
 function comecaCronometro(){
     atualizaCronometro();
     setInterval(atualizaCronometro,1000); }
-    comecaCronometro();
+    // comecaCronometro();
 
 function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();
@@ -53,3 +53,4 @@ function calculaTempo(tempoObjetivo) {
         return "Prazo Finalizado";
         }
     }
+
