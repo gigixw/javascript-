@@ -19,11 +19,6 @@ const tempoObjetivo4 = new Date("2024-02-01T00:00:00");
 
 const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 
-contadores[0].textContent = calculaTempo(tempos[0]);
-contadores[1].textContent = calculaTempo(tempos[1]);
-contadores[2].textContent = calculaTempo(tempos[2]);
-contadores[3].textContent = calculaTempo(tempos[3]);
-
 function atualizaCronometro(){
 for (let i = 0; i < contadores.length; i++) {
     contadores[i].textContent = calculaTempo(tempos[i]);
